@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6F487DC281146550021BF5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F487DB281146550021BF5B /* AppDelegate.swift */; };
+		B6F487DE281146550021BF5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F487DD281146550021BF5B /* SceneDelegate.swift */; };
+		B6F487E0281146550021BF5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F487DF281146550021BF5B /* ContentView.swift */; };
+		B6F487E2281146570021BF5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6F487E1281146570021BF5B /* Assets.xcassets */; };
+		B6F487E5281146570021BF5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6F487E4281146570021BF5B /* Preview Assets.xcassets */; };
+		B6F487E8281146570021BF5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6F487E6281146570021BF5B /* LaunchScreen.storyboard */; };
+		B6F487F3281146570021BF5B /* GuacChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F487F2281146570021BF5B /* GuacChatTests.swift */; };
+		B6F487FE281146570021BF5B /* GuacChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F487FD281146570021BF5B /* GuacChatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6F487EF281146570021BF5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6F487D0281146550021BF5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6F487D7281146550021BF5B;
+			remoteInfo = GuacChat;
+		};
+		B6F487FA281146570021BF5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6F487D0281146550021BF5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6F487D7281146550021BF5B;
+			remoteInfo = GuacChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6F487D8281146550021BF5B /* GuacChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuacChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6F487DB281146550021BF5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6F487DD281146550021BF5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B6F487DF281146550021BF5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B6F487E1281146570021BF5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6F487E4281146570021BF5B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6F487E7281146570021BF5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6F487E9281146570021BF5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6F487EE281146570021BF5B /* GuacChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuacChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6F487F2281146570021BF5B /* GuacChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuacChatTests.swift; sourceTree = "<group>"; };
+		B6F487F4281146570021BF5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6F487F9281146570021BF5B /* GuacChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuacChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6F487FD281146570021BF5B /* GuacChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuacChatUITests.swift; sourceTree = "<group>"; };
+		B6F487FF281146570021BF5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6F487D5281146550021BF5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6F487EB281146570021BF5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6F487F6281146570021BF5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6F487CF281146550021BF5B = {
+			isa = PBXGroup;
+			children = (
+				B6F487DA281146550021BF5B /* GuacChat */,
+				B6F487F1281146570021BF5B /* GuacChatTests */,
+				B6F487FC281146570021BF5B /* GuacChatUITests */,
+				B6F487D9281146550021BF5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6F487D9281146550021BF5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6F487D8281146550021BF5B /* GuacChat.app */,
+				B6F487EE281146570021BF5B /* GuacChatTests.xctest */,
+				B6F487F9281146570021BF5B /* GuacChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6F487DA281146550021BF5B /* GuacChat */ = {
+			isa = PBXGroup;
+			children = (
+				B6F487DB281146550021BF5B /* AppDelegate.swift */,
+				B6F487DD281146550021BF5B /* SceneDelegate.swift */,
+				B6F487DF281146550021BF5B /* ContentView.swift */,
+				B6F487E1281146570021BF5B /* Assets.xcassets */,
+				B6F487E6281146570021BF5B /* LaunchScreen.storyboard */,
+				B6F487E9281146570021BF5B /* Info.plist */,
+				B6F487E3281146570021BF5B /* Preview Content */,
+			);
+			path = GuacChat;
+			sourceTree = "<group>";
+		};
+		B6F487E3281146570021BF5B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B6F487E4281146570021BF5B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B6F487F1281146570021BF5B /* GuacChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6F487F2281146570021BF5B /* GuacChatTests.swift */,
+				B6F487F4281146570021BF5B /* Info.plist */,
+			);
+			path = GuacChatTests;
+			sourceTree = "<group>";
+		};
+		B6F487FC281146570021BF5B /* GuacChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6F487FD281146570021BF5B /* GuacChatUITests.swift */,
+				B6F487FF281146570021BF5B /* Info.plist */,
+			);
+			path = GuacChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6F487D7281146550021BF5B /* GuacChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6F48802281146570021BF5B /* Build configuration list for PBXNativeTarget "GuacChat" */;
+			buildPhases = (
+				B6F487D4281146550021BF5B /* Sources */,
+				B6F487D5281146550021BF5B /* Frameworks */,
+				B6F487D6281146550021BF5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuacChat;
+			productName = GuacChat;
+			productReference = B6F487D8281146550021BF5B /* GuacChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6F487ED281146570021BF5B /* GuacChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6F48805281146570021BF5B /* Build configuration list for PBXNativeTarget "GuacChatTests" */;
+			buildPhases = (
+				B6F487EA281146570021BF5B /* Sources */,
+				B6F487EB281146570021BF5B /* Frameworks */,
+				B6F487EC281146570021BF5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6F487F0281146570021BF5B /* PBXTargetDependency */,
+			);
+			name = GuacChatTests;
+			productName = GuacChatTests;
+			productReference = B6F487EE281146570021BF5B /* GuacChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6F487F8281146570021BF5B /* GuacChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6F48808281146570021BF5B /* Build configuration list for PBXNativeTarget "GuacChatUITests" */;
+			buildPhases = (
+				B6F487F5281146570021BF5B /* Sources */,
+				B6F487F6281146570021BF5B /* Frameworks */,
+				B6F487F7281146570021BF5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6F487FB281146570021BF5B /* PBXTargetDependency */,
+			);
+			name = GuacChatUITests;
+			productName = GuacChatUITests;
+			productReference = B6F487F9281146570021BF5B /* GuacChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6F487D0281146550021BF5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Ryan Downs";
+				TargetAttributes = {
+					B6F487D7281146550021BF5B = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					B6F487ED281146570021BF5B = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = B6F487D7281146550021BF5B;
+					};
+					B6F487F8281146570021BF5B = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = B6F487D7281146550021BF5B;
+					};
+				};
+			};
+			buildConfigurationList = B6F487D3281146550021BF5B /* Build configuration list for PBXProject "GuacChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6F487CF281146550021BF5B;
+			productRefGroup = B6F487D9281146550021BF5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6F487D7281146550021BF5B /* GuacChat */,
+				B6F487ED281146570021BF5B /* GuacChatTests */,
+				B6F487F8281146570021BF5B /* GuacChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6F487D6281146550021BF5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F487E8281146570021BF5B /* LaunchScreen.storyboard in Resources */,
+				B6F487E5281146570021BF5B /* Preview Assets.xcassets in Resources */,
+				B6F487E2281146570021BF5B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6F487EC281146570021BF5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6F487F7281146570021BF5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6F487D4281146550021BF5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F487DC281146550021BF5B /* AppDelegate.swift in Sources */,
+				B6F487DE281146550021BF5B /* SceneDelegate.swift in Sources */,
+				B6F487E0281146550021BF5B /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6F487EA281146570021BF5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F487F3281146570021BF5B /* GuacChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6F487F5281146570021BF5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F487FE281146570021BF5B /* GuacChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6F487F0281146570021BF5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6F487D7281146550021BF5B /* GuacChat */;
+			targetProxy = B6F487EF281146570021BF5B /* PBXContainerItemProxy */;
+		};
+		B6F487FB281146570021BF5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6F487D7281146550021BF5B /* GuacChat */;
+			targetProxy = B6F487FA281146570021BF5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6F487E6281146570021BF5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6F487E7281146570021BF5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6F48800281146570021BF5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6F48801281146570021BF5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6F48803281146570021BF5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GuacChat/Preview Content\"";
+				DEVELOPMENT_TEAM = 6H945F5A34;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GuacChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RyanDowns.GuacChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6F48804281146570021BF5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GuacChat/Preview Content\"";
+				DEVELOPMENT_TEAM = 6H945F5A34;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GuacChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RyanDowns.GuacChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B6F48806281146570021BF5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H945F5A34;
+				INFOPLIST_FILE = GuacChatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RyanDowns.GuacChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuacChat.app/GuacChat";
+			};
+			name = Debug;
+		};
+		B6F48807281146570021BF5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H945F5A34;
+				INFOPLIST_FILE = GuacChatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RyanDowns.GuacChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuacChat.app/GuacChat";
+			};
+			name = Release;
+		};
+		B6F48809281146570021BF5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H945F5A34;
+				INFOPLIST_FILE = GuacChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RyanDowns.GuacChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuacChat;
+			};
+			name = Debug;
+		};
+		B6F4880A281146570021BF5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H945F5A34;
+				INFOPLIST_FILE = GuacChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RyanDowns.GuacChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuacChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6F487D3281146550021BF5B /* Build configuration list for PBXProject "GuacChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6F48800281146570021BF5B /* Debug */,
+				B6F48801281146570021BF5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6F48802281146570021BF5B /* Build configuration list for PBXNativeTarget "GuacChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6F48803281146570021BF5B /* Debug */,
+				B6F48804281146570021BF5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6F48805281146570021BF5B /* Build configuration list for PBXNativeTarget "GuacChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6F48806281146570021BF5B /* Debug */,
+				B6F48807281146570021BF5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6F48808281146570021BF5B /* Build configuration list for PBXNativeTarget "GuacChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6F48809281146570021BF5B /* Debug */,
+				B6F4880A281146570021BF5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6F487D0281146550021BF5B /* Project object */;
+}
